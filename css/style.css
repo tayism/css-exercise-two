@@ -50,3 +50,13 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+h1 {
+  font-size: 32px;
+  line-height: 75%
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 75%
+}
