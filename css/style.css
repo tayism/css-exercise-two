@@ -1,9 +1,11 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #f2f2f2;
+  color: #000000;
+  font-size: 16px;
+  text-align: left;
 }
 
-nav.feature {
+nav {
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
@@ -20,7 +22,7 @@ nav.feature {
 }
 
 .medium-pic {
-  width: 70%;
+  width: 50%;
 }
 
 .left, .right {
@@ -43,7 +45,7 @@ li {
 }
 
 article {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .container {
@@ -51,12 +53,31 @@ article {
   width: 50%;
 }
 
+.story-text {
+  text-align: left;
+}
+
 h1 {
-  font-size: 32px;
-  line-height: 75%
+  font-size: 3em;
+  line-height: normal;
+  font-family: helvetica, arial, sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 15px;
 }
 
 h3 {
-  font-size: 16px;
-  line-height: 75%
+  font-size: 1.5em;
+  line-height: normal;
+  font-family: helvetica, arial, sans-serif;
+  padding: 15px;
 }
+
+p {
+  line-height: 180%;
+  font-family: helvetica, arial, sans-serif;
+  padding: 15px;
+}
+
+a {
+    text-decoration: none;
